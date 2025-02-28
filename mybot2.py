@@ -16,8 +16,8 @@ async def hello(ctx):
     await ctx.send(f'Hi! I am a bot {bot.user}!')
 
 @bot.command()
-async def heh(ctx, count_heh = 5):
-    await ctx.send("he" * count_heh)
+async def hah(ctx, count_heh = 5):
+    await ctx.send("ha" * count_heh)
 
 @bot.command()
 async def generate_password(ctx):
@@ -32,3 +32,5 @@ async def pangkatkan(ctx):
     
     await ctx.send(f'berikut pangkat dua dari{angka}')
     await ctx.send(angka**2)
+
+bot.run('masukkan token')
