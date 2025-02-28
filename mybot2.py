@@ -32,5 +32,8 @@ async def pangkatkan(ctx):
     
     await ctx.send(f'berikut pangkat dua dari{angka}')
     await ctx.send(angka**2)
+    @bot.command()
+async def help(ctx):
+    await ctx.send('hello = untuk menyapa bot !generate_password = untuk membuat password !pangkatkan :untuk mempangkat duakan angka')
 
 bot.run('masukkan token')
